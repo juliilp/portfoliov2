@@ -14,7 +14,10 @@ export default function Home() {
         <h1>¡Hola, Soy Julian!</h1>
         <p style={{ color: "#2626263" }}>Desarollador Web Full Stack</p>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <button className="home-button">Contactame</button>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+            <button className="home-button">Contactame</button>
+            <button className="home-button">Curriculum</button>
+          </div>
           <div className="home-containers-icons">
             <i className="bi bi-github github" />
             <i className="bi bi-linkedin linkedin" />

@@ -21,23 +21,25 @@
 .home-button {
   border: none;
   padding: 10px 50px;
-  background-color: #8ddbe0;
+  background-color: #57c9e0;
   border-radius: 20px;
-  width: 171px;
-  height: 35px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  width: 176px;
 }
 
 .home-containers-icons {
   display: flex;
   justify-content: space-evenly;
-  gap: 20px;
-  width: 171px;
+  gap: 10px;
+  width: 176px;
   margin-top: 10px;
 }
 
 .github,
 .linkedin {
-  font-size: 24px;
+  font-size: 30px;
 }
 .linkedin {
   color: rgb(0, 70, 184);
