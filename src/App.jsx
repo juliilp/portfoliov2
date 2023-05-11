@@ -12,8 +12,8 @@ export default function App() {
       <Navbar />
       <Home />
       <SobreMi />
-      {/* <Habilidades />
-        <Contacto />
+      <Habilidades />
+      {/* <Contacto />
         <Footer /> */}
     </div>
   );

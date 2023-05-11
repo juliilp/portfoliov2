@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  justify-content: center;
 }
 
 .container-flecha {
@@ -16,6 +17,7 @@
 .flecha {
   font-size: 20px;
   font-weight: 1000;
+  transition: all 0.3s;
 }
 
 .rotate {
