@@ -16,7 +16,7 @@ export default function SobreMi() {
     <div className="sobremi-container">
       <div>
         <div className="sobremi-quiensoy">
-          <h2>¿Quién soy?</h2>
+          <h2>¿Quién soy y que sigue de mi?</h2>
           <i
             className={
               flechaUno === false

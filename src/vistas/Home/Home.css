@@ -5,6 +5,9 @@
   height: 90vh;
 }
 
+.container-img-icons {
+  display: flex;
+}
 .container-img {
   display: flex;
   justify-content: center;
@@ -31,10 +34,8 @@
 
 .home-containers-icons {
   display: flex;
-  justify-content: space-evenly;
   gap: 10px;
   width: 176px;
-  margin-top: 10px;
 }
 
 .github,

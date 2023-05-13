@@ -1,41 +1,41 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
-import { DarkModeToggle } from "react-dark-mode-toggle-2";
 export default function Navbar() {
+  const [activeMenu, setActiveMenu] = React.useState(false);
 
-  const [menuHamburguesa, setMenuHamburguesa] = useState(false)
-  const [idioma, setIdioma] = useState(true)
-  const [isDarkMode, setIsDarkMode] = React.useState(false);
-    const handlerHamburguesa = () => {
-      setMenuHamburguesa(!menuHamburguesa)
-    }
-
-    const handlerIdioma = () => {
-      setIdioma(!idioma)
-    }
-    console.log(isDarkMode)
+  const handlerActiveMenu = () => {
+    setActiveMenu(!activeMenu);
+  };
+  console.log(activeMenu);
   return (
-    <nav >
-      <div className="navbar-container">
-        <div>
-      <i className="bi bi-list hamburguesa " onClick={handlerHamburguesa}/>
-      </div>
-      <DarkModeToggle 
-      onChange={setIsDarkMode}
-      size={70}
-      isDarkMode={isDarkMode}
-      />
-      </div>
-      <ul className={menuHamburguesa === true ? "navbar-ul-li-open navbar-ul-li-general" : "navbar-ul-li-closed navbar-ul-li-general"}>
-        <li className="navbar-ul-li">Inicio</li>
-        <li className="navbar-ul-li">Sobre mi</li>
-        <li className="navbar-ul-li">Habilidades</li>
-        <li className="navbar-ul-li">Contacto</li>
-        <li className="navbar-ul-li" onClick={handlerIdioma} >{idioma === true ? "Español" : "English"}</li>
-        <li className="navbar-ul-li">
-          
+    <div>
+      <header className="header">
+        <h3>Julian Lopez Padua</h3>
+        <nav>
+          <i
+            className={activeMenu ? "uil uil-apps menu" : "uil uil-apps menu"}
+            onClick={handlerActiveMenu}
+          />
+        </nav>
+      </header>
+      <ul className={activeMenu === true ? "ul open" : "ul closed"}>
+        <li>
+          <i className="uil uil-estate" /> Inicio
         </li>
+        <li>
+          <i className="uil uil-user" />
+          Sobre mi
+        </li>
+        <li>
+          <i className="uil uil-scenery" />
+          Proyectos
+        </li>
+        <li>
+          <i className="uil uil-message" />
+          Contacto
+        </li>
+        <li>Español</li>
       </ul>
-    </nav>
+    </div>
   );
 }

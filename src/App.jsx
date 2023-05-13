@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./vistas/Navbar/Navbar";
 import Home from "./vistas/Home/Home";
 import SobreMi from "./vistas/SobreMi/SobreMi";
-import Habilidades from "./vistas/Habilidades/Habilidades";
+import Proyectos from "./vistas/Proyectos/Proyectos";
 import Contacto from "./vistas/Contacto/Contacto";
 import Footer from "./vistas/Footer/Footer";
 import "./App.css";
@@ -12,9 +12,9 @@ export default function App() {
       <Navbar />
       <Home />
       <SobreMi />
-      <Habilidades />
-      {/* <Contacto />
-        <Footer /> */}
+      <Proyectos />
+      <Contacto />
+      <Footer />
     </div>
   );
 }
