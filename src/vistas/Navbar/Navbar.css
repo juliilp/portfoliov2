@@ -5,7 +5,20 @@
 }
 
 li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   list-style: none;
+  gap: 7px;
+}
+.icon {
+  font-size: 19px;
+}
+.letra-icon {
+  font-size: 0.813rem;
+  font-weight: 700;
 }
 .header {
   position: fixed;
@@ -19,18 +32,24 @@ li {
   border: 1px solid red;
   background-color: #fff;
   z-index: 11;
+  padding: 0 20px;
 }
 
+.container-icons {
+  display: flex;
+  gap: 15px;
+}
 .ul {
   position: fixed;
   left: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 120px;
+  height: 180px;
   gap: 35px;
   width: 100%;
   transition: transform 1.5s ease;
-  border: 1px solid red;
+  border-top: 1px solid red;
+  background-color: #fff;
 }
 .menu {
   font-size: 24px;
@@ -42,5 +61,5 @@ li {
 }
 
 .open {
-  transform: translateY(325px);
+  transform: translateY(250px);
 }
