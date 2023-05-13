@@ -12,7 +12,7 @@ export default function App() {
       <Navbar />
       <Home />
       <SobreMi />
-      <Proyectos />
+      {/* <Proyectos /> */}
       <Contacto />
       <Footer />
     </div>

@@ -10,13 +10,11 @@ export default function SobreMi() {
     setFlechaDos(!flechaDos);
   };
 
-  console.log(flechaUno);
-  console.log(flechaDos);
   return (
     <div className="sobremi-container">
       <div>
         <div className="sobremi-quiensoy">
-          <h2>¿Quién soy y que sigue de mi?</h2>
+          <h2>¿Quién soy?</h2>
           <i
             className={
               flechaUno === false
@@ -26,14 +24,14 @@ export default function SobreMi() {
             onClick={handlerFlechaUno}
           />
         </div>
-        <p>{flechaUno === false ? "" : "Quien soy"}</p>
+        <p className={!flechaUno ? "hidden" : "visible"}>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+          repudiandae quia
+        </p>
       </div>
       <div>
         <div className="sobremi-yo">
-          <h2>
-            ¿Por qué me <br />
-            eligirías a mi?
-          </h2>
+          <h2>¿Por qué yo?</h2>
           <i
             className={
               flechaDos === false
@@ -44,7 +42,11 @@ export default function SobreMi() {
             onClick={handlerFlechaDos}
           />
         </div>
-        <p>{flechaDos === false ? "" : "Porque yo"}</p>
+        <p className={!flechaDos ? "hidden" : "visible"}>
+          {" "}
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+          repudiandae quia
+        </p>
       </div>
     </div>
   );

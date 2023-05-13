@@ -23,3 +23,17 @@
 .rotate {
   transform: rotate(90deg);
 }
+
+/* Mostrar o desaparecer el texto  */
+
+.hidden {
+  color: transparent;
+  transform: translateX(-100px);
+  transition: all 1s;
+}
+
+.visible {
+  color: black;
+  transform: translateX(0);
+  transition: all 1s;
+}
