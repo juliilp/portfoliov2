@@ -9,12 +9,12 @@ import "./App.css";
 export default function App() {
   return (
     <div className="container-todo">
-      <Navbar />
+      {/* <Navbar />
       <Home />
-      <SobreMi />
-      {/* <Proyectos /> */}
-      <Contacto />
-      <Footer />
+      <SobreMi /> */}
+      <Proyectos />
+      {/* <Contacto />
+      <Footer /> */}
     </div>
   );
 }
