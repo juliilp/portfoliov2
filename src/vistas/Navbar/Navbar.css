@@ -48,8 +48,8 @@ li {
   gap: 35px;
   width: 100%;
   transition: transform 1.5s ease;
-  border-top: 1px solid red;
   background-color: #fff;
+  border: 1px solid red;
   z-index: 100;
 }
 .menu {
@@ -58,9 +58,9 @@ li {
 
 .closed {
   /* display: none; */
-  transform: translateY(500px);
+  transform: translateY(600px);
 }
 
 .open {
-  transform: translateY(253px);
+  transform: translateY(305px);
 }
