@@ -29,11 +29,11 @@
 .hidden {
   color: transparent;
   transform: translateX(-100px);
-  transition: all 1s;
+  transition: all 1s ease;
 }
 
 .visible {
   color: black;
   transform: translateX(0);
-  transition: all 1s;
+  transition: all 1s ease;
 }

@@ -26,7 +26,10 @@ export default function SobreMi() {
         </div>
         <p className={!flechaUno ? "hidden" : "visible"}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
-          repudiandae quia
+          repudiandae quia Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Est repudiandae quia Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Est repudiandae quia Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Est repudiandae quia
         </p>
       </div>
       <div>
