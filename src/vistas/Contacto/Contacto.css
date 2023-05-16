@@ -27,8 +27,8 @@
   width: 300px;
   outline: none;
   border: none;
-  border: 1px solid gray;
   padding: 5px 0px;
+  background-color: rgb(185, 228, 236);
 }
 
 textarea {
@@ -41,4 +41,7 @@ textarea {
   border: none;
   cursor: pointer;
   border-radius: 0.5rem;
+  background-color: #9f84bd;
+  font-weight: 700;
+  color: white;
 }
