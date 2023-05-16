@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 405px;
+  gap: 30px;
+}
+
+.imagen-carrousel {
+  width: 288px;
+  height: 200px;
+}
+
+.button-card {
+  background-color: #9f84bd;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 700;
+}
