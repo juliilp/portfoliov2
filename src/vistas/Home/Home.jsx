@@ -1,29 +1,34 @@
 import React from "react";
 import "./Home.css";
 import Yo from "../../assets/yo.jpeg";
+import imgMobile from "../../assets/img-mobile.svg";
 export default function Home() {
   return (
     <div className="container-home">
-      <div className="container-img-icons">
-        <div className="container-img">
-          {/* <img src={Yo} className="home-img-yo" /> */}
-          <span>Imagen xdxd</span>
-        </div>
-      </div>
-      <div>
-        <h1>¡Hola, Soy Julian!</h1>
-        <p style={{ color: "#2626263" }}>Desarollador Web Full Stack</p>
+      <picture className="container-img-mobile">
+        <img
+          src={imgMobile}
+          alt="img-mobile"
+          className="img-mobile"
+          width={300}
+          height={150}
+        />
+      </picture>
+      <div className="container-home-info">
+        <h1 className="home-nombre">¡Hola, Soy Julian!</h1>
+        <h2 className="home-subnombre">Desarollador Web Full Stack</h2>
         <div className="home-containers-icons">
           <i className="bi bi-github github" />
           <i className="bi bi-linkedin linkedin" />
+          <i className="bi bi-whatsapp whatsapp " />
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <div>
-            <button className="home-button">Contactame</button>
-            <button className="home-button" style={{ marginTop: "7px" }}>
-              Curriculum
-            </button>
-          </div>
+        <div className="container-home-buttons">
+          <button className="home-button">
+            Contacto <i className="bi bi-person-lines-fill icon-contacto " />
+          </button>
+          <button className="home-button">
+            Ver CV <i className="bi bi-eye-fill icon-cv " />
+          </button>
         </div>
       </div>
     </div>

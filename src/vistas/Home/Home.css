@@ -2,9 +2,23 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 100vw;
   height: 90vh;
+  justify-content: space-evenly;
 }
 
+.container-img-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.container-home-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .container-img-icons {
   display: flex;
 }
@@ -15,33 +29,72 @@
   width: 100%;
 }
 
-.home-img-yo {
-  object-fit: cover;
-  width: 100%;
-  border-radius: 30px;
+.home-containers-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container-home-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: max-content;
+}
+
+.yo {
+  width: 40%;
+  height: 85%;
+  border-radius: 0.5rem;
+  padding: 15px 0px;
+  overflow: hidden;
+}
+
+.home-nombre {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.home-subnombre {
+  color: #6a797c;
+  font-weight: 600;
+  text-align: center;
 }
 
 .home-button {
-  border: none;
-  padding: 10px 50px;
-  background-color: #57c9e0;
+  background-color: #9f84bd;
   border-radius: 20px;
-  text-align: center;
   color: white;
   font-weight: 700;
-  width: 176px;
+  padding: 10px 20px;
+  border: none;
+  justify-content: flex-end;
+}
+.home-button:nth-child(1) {
+  width: 130px;
+}
+.home-button:nth-child(2) {
+  text-align: center;
+  width: 110px;
 }
 
-.home-containers-icons {
-  display: flex;
-  gap: 10px;
-  width: 176px;
+.icon-contacto,
+.icon-cv {
+  color: rgb(63, 63, 63);
+  padding-left: 7px;
 }
 
 .github,
-.linkedin {
-  font-size: 30px;
+.linkedin,
+.whatsapp {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  border: 2px dotted #010101;
 }
-.linkedin {
+/* .linkedin {
   color: rgb(0, 70, 184);
-}
+} */
