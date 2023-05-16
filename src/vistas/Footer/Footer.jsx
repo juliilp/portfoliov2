@@ -1,7 +1,16 @@
-import React from 'react'
-
+import React from "react";
+import "./Footer.css";
 export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="footer">
+      <h3>Julian</h3>
+      <ul className="footer-ul">
+        <li>Lorem ipsum dolor </li>
+        <li>Lorem ipsum dolor </li>
+        <li>Lorem ipsum dolor </li>
+        <li>Lorem ipsum dolor </li>
+        <li>Lorem ipsum dolor </li>
+      </ul>
+    </footer>
+  );
 }

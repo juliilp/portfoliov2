@@ -1,0 +1,18 @@
+.footer {
+  width: 100vw;
+  height: 8rem;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(236, 236, 236);
+}
+
+.footer-ul {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  margin: 10px 0;
+}
