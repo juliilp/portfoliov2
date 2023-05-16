@@ -24,12 +24,10 @@ export default function SobreMi() {
             onClick={handlerFlechaUno}
           />
         </div>
-        <p className={!flechaUno ? "hidden" : "visible"}>
+        <p className={!flechaUno ? "hidden" : "visible sobremi-texto"}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
           repudiandae quia Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Est repudiandae quia Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Est repudiandae quia Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Est repudiandae quia
+          elit. Est repudiandae quia Lorem ipsum,
         </p>
       </div>
       <div>
@@ -45,7 +43,7 @@ export default function SobreMi() {
             onClick={handlerFlechaDos}
           />
         </div>
-        <p className={!flechaDos ? "hidden" : "visible"}>
+        <p className={!flechaDos ? "hidden" : "visible sobremi-texto"}>
           {" "}
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
           repudiandae quia

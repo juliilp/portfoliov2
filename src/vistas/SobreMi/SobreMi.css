@@ -1,11 +1,17 @@
 /* .sobremi-container{} */
 
+.sobremi-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .sobremi-quiensoy,
 .sobremi-yo {
   display: flex;
   align-items: center;
   gap: 20px;
   justify-content: center;
+  color: black;
 }
 
 .container-flecha {
@@ -14,6 +20,12 @@
   border: 1px solid red;
 }
 
+.sobremi-texto {
+  padding: 0px 30px;
+  margin: 3rem;
+}
+
+/* Rotacion de flecha */
 .flecha {
   font-size: 20px;
   font-weight: 1000;
@@ -24,6 +36,8 @@
   transform: rotate(90deg);
 }
 
+/* ////////////////////////////////// */
+
 /* Mostrar o desaparecer el texto  */
 
 .hidden {
@@ -33,7 +47,11 @@
 }
 
 .visible {
-  color: black;
+  background-color: #7ee3f7;
+  border-radius: 20px;
+  padding: 20px 20px;
   transform: translateX(0);
   transition: all 1s ease;
 }
+
+/* ///////////////////////////////// */
