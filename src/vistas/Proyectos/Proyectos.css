@@ -1,14 +1,4 @@
-.proyectos-container,
-.proyectos-titulo {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
-}
-.proyectos-container {
-  flex-direction: column;
-}
-
-.card-imagen {
-  width: 100%;
+.titulo-proyectos {
+  text-align: center;
+  color: #000;
 }
