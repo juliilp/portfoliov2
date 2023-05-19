@@ -14,7 +14,9 @@ export default function SobreMi() {
     <div className="sobremi-container">
       <div>
         <div className="sobremi-quiensoy">
-          <h2 onClick={handlerFlechaUno}>¿Quién soy?</h2>
+          <h2 onClick={handlerFlechaUno} className="title-quiensoy">
+            ¿Quién soy?
+          </h2>
           <i
             className={
               flechaUno === false
@@ -36,7 +38,7 @@ export default function SobreMi() {
       </div>
       <div>
         <div className="sobremi-yo">
-          <h2>¿Por qué yo?</h2>
+          <h2 className="title-porqueyo">¿Por qué yo?</h2>
           <i
             className={
               flechaDos === false
@@ -47,7 +49,7 @@ export default function SobreMi() {
             onClick={handlerFlechaDos}
           />
         </div>
-        <p className={!flechaDos ? "hidden" : "visible sobremi-texto"}>
+        <p className={!flechaDos ? "hidden" : "visible"}>
           {" "}
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
           repudiandae quia
