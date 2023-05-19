@@ -25,7 +25,7 @@ export default function Contacto() {
   };
   return (
     <div className="container-form">
-      <h2>¡Contactemonos!</h2>
+      <h2 className="container-title">¡Contactemonos!</h2>
       <form className="form" onSubmit={submitHandler}>
         <div className="container-span-input">
           <span className="span-contacto">Nombre</span>
@@ -35,6 +35,7 @@ export default function Contacto() {
             onChange={handlerForm}
             className="input-contacto"
             value={datos.nombre}
+            placeholder="name"
           />
         </div>
         <div className="container-span-input">
@@ -42,6 +43,7 @@ export default function Contacto() {
           <input
             type="email"
             name="email"
+            placeholder="name@gmail.com"
             onChange={handlerForm}
             className="input-contacto"
             value={datos.email}
@@ -53,6 +55,7 @@ export default function Contacto() {
             name="descripcion"
             onChange={handlerForm}
             className="input-contacto"
+            placeholder="description"
             rows={4}
             value={datos.descripcion}
           />

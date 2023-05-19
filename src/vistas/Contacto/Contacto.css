@@ -23,12 +23,20 @@
   flex-direction: column;
 }
 
+.container-title {
+  font-weight: 400;
+}
+.span-contacto {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
 .input-contacto {
   width: 300px;
   outline: none;
-  border: none;
-  padding: 5px 0px;
-  background-color: rgb(185, 228, 236);
+  border: 1px solid gray;
+  padding: 5px;
 }
 
 textarea {

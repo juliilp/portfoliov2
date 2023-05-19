@@ -5,8 +5,14 @@
   align-items: center;
   height: 405px;
   gap: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
 .imagen-carrousel {
   width: 288px;
   height: 200px;
