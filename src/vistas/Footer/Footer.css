@@ -1,18 +1,17 @@
 .footer {
+  border-bottom: 1px solid red;
   width: 100vw;
-  height: 8rem;
+  height: 3rem;
   display: flex;
   padding: 0px 30px;
   align-items: center;
-  justify-content: space-between;
-  background-color: rgb(236, 236, 236);
+  align-items: center;
+  justify-content: center;
+  background-color: #00334c;
+  color: #fff;
 }
 
-.footer-ul {
-  display: flex;
-  gap: 3px;
-  flex-direction: column;
-  list-style: none;
-  align-items: center;
-  margin: 10px 0;
+.title-footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
