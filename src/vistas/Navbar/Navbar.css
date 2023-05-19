@@ -6,31 +6,36 @@
 
 li {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  gap: 15px;
   text-align: center;
   list-style: none;
-  gap: 7px;
+}
+
+.mi-nombre {
+  color: #fff;
 }
 .icon {
-  font-size: 19px;
+  font-size: 40px;
+  color: #fff;
 }
 .letra-icon {
-  font-size: 0.813rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+.closed-menu {
+  top: 20px;
+  right: 20px;
+  position: absolute;
   font-weight: 700;
 }
 .header {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
   height: 10vh;
-  border-top: 2px ridge #b9b9b9;
-  background-color: #fff;
   z-index: 9999;
   padding: 0 20px;
 }
@@ -40,27 +45,28 @@ li {
   gap: 15px;
 }
 .ul {
-  position: fixed;
+  position: absolute;
+  top: 0;
   left: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 180px;
+  display: flex;
+  flex-direction: column;
   gap: 35px;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   transition: transform 1.5s ease;
-  background-color: #fff;
-  border: 1px solid red;
   z-index: 100;
+  padding: 7px 20px;
+  background-color: #00334c;
 }
 .menu {
-  font-size: 18px;
+  font-size: 25px;
+  color: #fff;
 }
 
 .closed {
-  /* display: none; */
-  transform: translateY(600px);
+  transform: translateX(-100%);
 }
 
 .open {
-  transform: translateY(305px);
+  transform: translateX(0px);
 }

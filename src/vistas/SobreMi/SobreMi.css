@@ -11,7 +11,7 @@
   align-items: center;
   gap: 20px;
   justify-content: center;
-  color: black;
+  color: #02203c;
 }
 
 .container-flecha {
@@ -23,6 +23,9 @@
 .sobremi-texto {
   padding: 0px 30px;
   margin: 3rem;
+  color: #445d6e;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Rotacion de flecha */
@@ -40,6 +43,11 @@
 
 /* Mostrar o desaparecer el texto  */
 
+.quiensoy-hidden {
+  margin: -1rem;
+  z-index: -100000;
+}
+
 .hidden {
   color: transparent;
   transform: translateX(-100px);
@@ -47,7 +55,6 @@
 }
 
 .visible {
-  background-color: #7ee3f7;
   border-radius: 20px;
   padding: 20px 20px;
   transform: translateX(0);

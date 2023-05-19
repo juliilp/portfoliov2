@@ -2,9 +2,11 @@ import React from "react";
 import "./Home.css";
 import Yo from "../../assets/yo.jpeg";
 import imgMobile from "../../assets/img-mobile.svg";
+import Navbar from "../Navbar/Navbar";
 export default function Home() {
   return (
     <div className="container-home">
+      <Navbar />
       <picture className="container-img-mobile">
         <img
           src={imgMobile}
@@ -15,7 +17,7 @@ export default function Home() {
         />
       </picture>
       <div className="container-home-info">
-        <h1 className="home-nombre">¡Hola, Soy Julian!</h1>
+        <h1 className="home-nombre">¡Hola, soy Julian!</h1>
         <h2 className="home-subnombre">Desarollador Web Full Stack</h2>
         <div className="home-containers-icons">
           <i className="bi bi-github github" />

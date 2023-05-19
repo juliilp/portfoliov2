@@ -5,7 +5,6 @@ import FoodApp from "../../assets/foodapp/foodapp1366.png";
 import VideoGames from "../../assets/videogamesapp/videogames1345.png";
 import Gigabyte from "../../assets/gigabyteapp/gigabyte1351.png";
 import Menu from "./Menu/Menu";
-import { storeMenu } from "../../store/store";
 const arrayImagenes = [
   { imagen: MercadoSolidario },
   { imagen: FoodApp },

@@ -18,8 +18,11 @@ export default function Navbar() {
   return (
     <div>
       <header className="header">
-        <h3>Julian Lopez Padua</h3>
         <nav className="container-icons">
+          <i
+            className={activeMenu ? "bi bi-list" : "bi bi-list menu"}
+            onClick={handlerActiveMenu}
+          />
           <i
             className={
               colorbg
@@ -28,13 +31,16 @@ export default function Navbar() {
             }
             onClick={handlerColorBg}
           />
-          <i
-            className={activeMenu ? "uil uil-apps menu" : "uil uil-apps menu"}
-            onClick={handlerActiveMenu}
-          />
         </nav>
+        <h3 className="mi-nombre">Julian Lopez Padua</h3>
       </header>
       <ul className={activeMenu === true ? "ul open" : "ul closed"}>
+        <li>
+          <i
+            className="bi bi-x-lg closed-menu icon"
+            onClick={handlerActiveMenu}
+          />
+        </li>
         <li>
           <i className="uil uil-estate icon " />
           <span className="letra-icon">Inicio</span>
@@ -55,8 +61,8 @@ export default function Navbar() {
           <img
             src={idioma ? En : Esp}
             alt="img idioma"
-            width={19}
-            height={19}
+            width={40}
+            height={40}
           />
           <span className="letra-icon" onClick={handlerIdioma}>
             {idioma ? "English" : "Español"}
