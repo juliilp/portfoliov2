@@ -5,6 +5,7 @@ import { Pagination, Navigation } from "swiper";
 import { sliderSettings } from "../../utils/common";
 import data from "../../utils/slider.json";
 import Card from "../Card/Card";
+import "./Carrousel.css";
 export default function Carrousel() {
   return (
     <div>
@@ -21,7 +22,9 @@ export default function Carrousel() {
         {data.map((e, i) => (
           <div id={i} className="card-carrousel">
             <SwiperSlide key={i}>
-              <Card titulo={e.name} textoMenu={e.texto} />
+              <div className="card-container-externo">
+                <Card titulo={e.name} textoMenu={e.texto} />
+              </div>
             </SwiperSlide>
           </div>
         ))}
