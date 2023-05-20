@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 100vw;
-  height: 90vh;
+  height: 70vh;
   justify-content: space-evenly;
   background: linear-gradient(-45deg, #00334c 50%, #00557f);
 }
@@ -98,4 +98,27 @@
 } */
 
 @media (min-width: 768px) {
+  .container-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-img-mobile {
+    order: 5;
+  }
+  .img-mobile {
+    width: 550px;
+    height: 250px;
+  }
+  .container-home-info {
+    position: relative;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-home-buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+  }
 }
