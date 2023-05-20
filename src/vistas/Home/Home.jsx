@@ -6,7 +6,6 @@ import Navbar from "../Navbar/Navbar";
 export default function Home() {
   return (
     <div className="container-home">
-      <Navbar />
       <picture className="container-img-mobile">
         <img
           src={imgMobile}

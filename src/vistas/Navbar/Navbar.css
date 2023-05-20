@@ -38,6 +38,7 @@ li {
   height: 10vh;
   z-index: 9999;
   padding: 0 20px;
+  background-color: #00334c;
 }
 
 .container-icons {

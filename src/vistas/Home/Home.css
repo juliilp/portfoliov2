@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   justify-content: space-evenly;
   background: linear-gradient(-45deg, #00334c 50%, #00557f);
 }
@@ -96,3 +96,6 @@
 /* .linkedin {
   color: rgb(0, 70, 184);
 } */
+
+@media (min-width: 768px) {
+}
