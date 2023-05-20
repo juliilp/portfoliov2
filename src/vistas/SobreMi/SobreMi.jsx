@@ -1,8 +1,8 @@
 import React from "react";
 import "./SobreMi.css";
 export default function SobreMi() {
-  const [flechaUno, setFlechaUno] = React.useState(false);
-  const [flechaDos, setFlechaDos] = React.useState(false);
+  const [flechaUno, setFlechaUno] = React.useState(true);
+  const [flechaDos, setFlechaDos] = React.useState(true);
   const handlerFlechaUno = (e) => {
     setFlechaUno(!flechaUno);
   };
@@ -49,7 +49,7 @@ export default function SobreMi() {
             onClick={handlerFlechaDos}
           />
         </div>
-        <p className={!flechaDos ? "hidden" : "visible"}>
+        <p className={!flechaDos ? "hidden porqueyo-hidden" : "visible"}>
           {" "}
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
           repudiandae quia
