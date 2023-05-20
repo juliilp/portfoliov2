@@ -33,6 +33,43 @@ export default function Navbar() {
           />
         </nav>
         <h3 className="mi-nombre">Julian Lopez Padua</h3>
+
+        <ul className="ul-adentro">
+          <li>
+            <i
+              className="bi bi-x-lg closed-menu icon"
+              onClick={handlerActiveMenu}
+            />
+          </li>
+          <li>
+            <i className="uil uil-estate icon " />
+            <span className="letra-icon">Inicio</span>
+          </li>
+          <li>
+            <i className="uil uil-user icon " />
+            <span className="letra-icon">Sobre mi</span>
+          </li>
+          <li>
+            <i className="uil uil-scenery icon " />
+            <span className="letra-icon">Proyectos</span>
+          </li>
+          <li>
+            <i className="uil uil-message icon " />
+            <span className="letra-icon">Contacto</span>
+          </li>
+          <li>
+            <img
+              src={idioma ? En : Esp}
+              alt="img idioma"
+              width={40}
+              height={40}
+              className="icon"
+            />
+            <span className="letra-icon" onClick={handlerIdioma}>
+              {idioma ? "English" : "Español"}
+            </span>
+          </li>
+        </ul>
       </header>
       <ul className={activeMenu === true ? "ul open" : "ul closed"}>
         <li>
