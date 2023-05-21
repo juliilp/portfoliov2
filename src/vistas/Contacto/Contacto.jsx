@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contacto.css";
+import enviarEmail from "./enviarEmail";
 export default function Contacto() {
   const [datos, setDatos] = React.useState({
     nombre: "",
@@ -16,6 +17,8 @@ export default function Contacto() {
   };
 
   const submitHandler = (e) => {
+    const { nombre, email, descripcion } = datos;
+    enviarEmail(nombre, email, descripcion);
     e.preventDefault();
     setDatos({
       nombre: "",
