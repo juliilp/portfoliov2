@@ -1,19 +1,20 @@
 const nodemailer = require("nodemailer");
-
+const { user, to, pass } = process.env;
 const routesEmail = async (req, res) => {
+  const { nombre, email, descripcion } = req.body;
   const config = {
     host: "smtp.gmail.com",
     port: 587,
     auth: {
-      user: "julianlopez43013@gmail.com",
-      pass: "irinwicxnzjmjsmj",
+      user: user,
+      pass: pass,
     },
   };
   const mensaje = {
-    from: "julianlopez43013@gmail.com",
-    to: "julianlopez43013@gmail.com",
-    subjet: "subjet",
-    text: "text",
+    from: user,
+    to: to,
+    subjet: "Mensaje de portafolio",
+    text: `La persona ${nombre} con email ${email} te quiere enviar el mensaje ${descripcion}`,
   };
   let transporter = nodemailer.createTransport(config);
 
