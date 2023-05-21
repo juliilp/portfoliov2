@@ -13,10 +13,8 @@ export default function SobreMi() {
   return (
     <div className="sobremi-container">
       <div>
-        <div className="sobremi-quiensoy">
-          <h2 onClick={handlerFlechaUno} className="title-quiensoy">
-            ¿Quién soy?
-          </h2>
+        <div className="sobremi-quiensoy" onClick={handlerFlechaUno}>
+          <h2 className="title-quiensoy">¿Quién soy?</h2>
           <i
             className={
               flechaUno === false
@@ -37,7 +35,7 @@ export default function SobreMi() {
         </p>
       </div>
       <div>
-        <div className="sobremi-yo">
+        <div className="sobremi-yo" onClick={handlerFlechaDos}>
           <h2 className="title-porqueyo">¿Por qué yo?</h2>
           <i
             className={
