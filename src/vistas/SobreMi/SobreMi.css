@@ -54,22 +54,29 @@
 }
 
 .hidden {
+  position: absolute;
   color: transparent;
   transform: translateX(-100%);
-  transition: all 1s ease;
   z-index: -100000;
 }
 
 .visible {
   border-radius: 20px;
-  padding: 0px 30px;
+  padding: 0px 40px;
   color: #445d6e;
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Open Sans", sans-serif;
-  padding: 20px 20px;
   transform: translateX(0);
   transition: all 1s ease;
   z-index: 100000;
+  font-weight: 300;
 }
 
 /* ///////////////////////////////// */
+
+@media (min-width: 768px) {
+  .sobremi-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
