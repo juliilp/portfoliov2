@@ -53,12 +53,12 @@ export default function Contacto() {
           />
         </div>
         <div className="container-span-input">
-          <span className="span-contacto">Descripcion</span>
+          <span className="span-contacto">Mensaje</span>
           <textarea
             name="descripcion"
             onChange={handlerForm}
             className="input-contacto"
-            placeholder="description"
+            placeholder="Mensaje"
             rows={4}
             value={datos.descripcion}
           />
