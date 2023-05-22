@@ -20,10 +20,25 @@ li {
   color: #fff;
 }
 .letra-icon {
+  position: relative;
   font-size: 1.1rem;
   font-weight: 700;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
+
+.letra-icon::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: #c4b107;
+}
+
+.letra-icon:active {
+  transform: scale(0.9);
+}
+
 .closed-menu {
   top: 20px;
   right: 20px;
