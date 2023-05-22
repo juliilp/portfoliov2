@@ -39,9 +39,9 @@
   color: white;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .card {
     width: 450px;
     height: 700px;
   }
-}
+} */
