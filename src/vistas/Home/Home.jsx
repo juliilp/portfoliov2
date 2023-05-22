@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import imgMobile from "../../assets/img-mobile.svg";
+import CV from "../../../CV.pdf";
 export default function Home() {
   return (
     <div className="container-home">
@@ -36,9 +37,11 @@ export default function Home() {
               Contacto <i className="bi bi-person-lines-fill icon-contacto " />
             </button>
           </a>
-          <button className="home-button">
-            Ver CV <i className="bi bi-eye-fill icon-cv " />
-          </button>
+          <a href={CV} target="_blank">
+            <button className="home-button">
+              Ver CV <i className="bi bi-eye-fill icon-cv " />
+            </button>
+          </a>
         </div>
       </div>
     </div>
