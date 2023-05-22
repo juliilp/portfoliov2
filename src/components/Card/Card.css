@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   width: 350px;
   padding: 50px 0;
+  cursor: pointer;
 }
 .container-title-p {
   display: flex;
