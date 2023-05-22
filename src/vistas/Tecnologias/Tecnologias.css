@@ -1,0 +1,34 @@
+.section-container-tecnologias {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  flex-wrap: wrap;
+}
+
+.tecnologias-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.container-tecnologias {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tecnologias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.tecnologia-span {
+  font-weight: 300;
+}
