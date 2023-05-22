@@ -20,7 +20,13 @@ export default function Carrousel() {
           <div id={i} className="card-carrousel">
             <SwiperSlide key={i}>
               <div className="card-container-externo">
-                <Card titulo={e.name} textoMenu={e.texto} image={e.imagen} />
+                <Card
+                  titulo={e.name}
+                  textoMenu={e.texto}
+                  image={e.imagen}
+                  web={e.web}
+                  github={e.github}
+                />
               </div>
             </SwiperSlide>
           </div>
