@@ -69,7 +69,7 @@ li {
   gap: 35px;
   width: 100vw;
   height: 100vh;
-  transition: transform 1.5s ease;
+  transition: transform 0.7s ease-in-out;
   z-index: 100;
   padding: 7px 20px;
   background-color: #00334c;
