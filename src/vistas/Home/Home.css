@@ -71,6 +71,7 @@
   padding: 10px 20px;
   border: none;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .home-button:nth-child(1) {
   width: 130px;
@@ -92,6 +93,13 @@
   padding: 10px;
   font-size: 30px;
   color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.github:active,
+.linkedin:active,
+.whatsapp:active {
+  transform: scale(0.8);
 }
 /* .linkedin {
   color: rgb(0, 70, 184);
