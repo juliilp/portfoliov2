@@ -42,20 +42,28 @@ export default function Navbar() {
             />
           </li>
           <li>
-            <i className="uil uil-estate icon " />
-            <span className="letra-icon">Inicio</span>
+            <a href="#inicio">
+              <i className="uil uil-estate icon " />
+              <span className="letra-icon">Inicio</span>
+            </a>
           </li>
           <li>
-            <i className="uil uil-user icon " />
-            <span className="letra-icon">Sobre mi</span>
+            <a href="#sobremi">
+              <i className="uil uil-user icon " />
+              <span className="letra-icon">Sobre mi</span>
+            </a>
           </li>
           <li>
-            <i className="uil uil-scenery icon " />
-            <span className="letra-icon">Proyectos</span>
+            <a href="#proyectos">
+              <i className="uil uil-scenery icon " />
+              <span className="letra-icon">Proyectos</span>
+            </a>
           </li>
           <li>
-            <i className="uil uil-message icon " />
-            <span className="letra-icon">Contacto</span>
+            <a href="#contacto">
+              <i className="uil uil-message icon " />
+              <span className="letra-icon">Contacto</span>
+            </a>
           </li>
           <li>
             <img
@@ -79,20 +87,28 @@ export default function Navbar() {
           />
         </li>
         <li>
-          <i className="uil uil-estate icon " />
-          <span className="letra-icon">Inicio</span>
+          <a href="#inicio" onClick={handlerActiveMenu}>
+            <i className="uil uil-estate icon " />
+            <span className="letra-icon">Inicio</span>
+          </a>
         </li>
         <li>
-          <i className="uil uil-user icon " />
-          <span className="letra-icon">Sobre mi</span>
+          <a href="#sobremi" onClick={handlerActiveMenu}>
+            <i className="uil uil-user icon " />
+            <span className="letra-icon">Sobre mi</span>
+          </a>
         </li>
         <li>
-          <i className="uil uil-scenery icon " />
-          <span className="letra-icon">Proyectos</span>
+          <a href="#proyectos" onClick={handlerActiveMenu}>
+            <i className="uil uil-scenery icon " />
+            <span className="letra-icon">Proyectos</span>
+          </a>
         </li>
         <li>
-          <i className="uil uil-message icon " />
-          <span className="letra-icon">Contacto</span>
+          <a href="#contacto" onClick={handlerActiveMenu}>
+            <i className="uil uil-message icon " />
+            <span className="letra-icon">Contacto</span>
+          </a>
         </li>
         <li>
           <img

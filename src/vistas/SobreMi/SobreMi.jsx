@@ -14,7 +14,9 @@ export default function SobreMi() {
     <div className="sobremi-container">
       <div>
         <div className="sobremi-quiensoy" onClick={handlerFlechaUno}>
-          <h2 className="title-quiensoy">¿Quién soy?</h2>
+          <h2 className="title-quiensoy" id="sobremi">
+            ¿Quién soy?
+          </h2>
           <i
             className={
               flechaUno === false

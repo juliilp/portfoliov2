@@ -72,6 +72,7 @@
   border: none;
   justify-content: flex-end;
   cursor: pointer;
+  scroll-behavior: smooth;
 }
 .home-button:nth-child(1) {
   width: 130px;
