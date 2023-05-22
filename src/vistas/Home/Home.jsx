@@ -1,8 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Yo from "../../assets/yo.jpeg";
 import imgMobile from "../../assets/img-mobile.svg";
-import Navbar from "../Navbar/Navbar";
 export default function Home() {
   return (
     <div className="container-home">
