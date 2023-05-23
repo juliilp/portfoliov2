@@ -1,20 +1,25 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Pagination, Navigation } from "swiper";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { sliderSettings } from "../../utils/common";
 import Card from "../Card/Card";
 import "./Carrousel.css";
 import data from "../../utils/data";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 export default function Carrousel() {
   return (
     <div>
       <Swiper
         {...sliderSettings}
-        loop={false}
+        cssMode={true}
         pagination={true}
-        modules={[Pagination]}
+        navigation={true}
+        mousewheel={true}
+        keyboard={true}
         className="mySwiper"
+        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
       >
         {data.map((e, i) => (
           <div id={i} className="card-carrousel">

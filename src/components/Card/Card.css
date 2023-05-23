@@ -28,6 +28,8 @@
 
 .title-card {
   font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
 }
 .card-button {
   padding: 10px 20px;
