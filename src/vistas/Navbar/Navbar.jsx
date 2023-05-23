@@ -44,13 +44,13 @@ export default function Navbar() {
           <li>
             <a href="#tecnologias">
               <i className="uil uil-estate icon " />
-              <span className="letra-icon">Tecnologias</span>
+              <span className="letra-icon">Tecnologías</span>
             </a>
           </li>
           <li>
             <a href="#sobremi">
               <i className="uil uil-user icon " />
-              <span className="letra-icon">Sobre mi</span>
+              <span className="letra-icon">Sobre mí</span>
             </a>
           </li>
           <li>
@@ -87,15 +87,15 @@ export default function Navbar() {
           />
         </li>
         <li>
-          <a href="#inicio" onClick={handlerActiveMenu}>
+          <a href="#tecnologias" onClick={handlerActiveMenu}>
             <i className="uil uil-estate icon " />
-            <span className="letra-icon">Inicio</span>
+            <span className="letra-icon">Tecnologías</span>
           </a>
         </li>
         <li>
           <a href="#sobremi" onClick={handlerActiveMenu}>
             <i className="uil uil-user icon " />
-            <span className="letra-icon">Sobre mi</span>
+            <span className="letra-icon">Sobre mí</span>
           </a>
         </li>
         <li>

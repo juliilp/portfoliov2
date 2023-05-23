@@ -14,7 +14,7 @@ import "./Tecnologias.css";
 export default function Tecnologias() {
   return (
     <section className="section-container-tecnologias" id="tecnologias">
-      <h2 className="tecnologias-title">Tecnologias</h2>
+      <h2 className="tecnologias-title">Tecnologías</h2>
       <div className="container-tecnologias">
         <div className="tecnologias">
           <SiHtml5 size="2rem" color="#D84E64" />
