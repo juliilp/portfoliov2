@@ -2,6 +2,7 @@ import React from "react";
 import "./Contacto.css";
 import emailjs from "@emailjs/browser";
 import enviarEmail from "./enviarEmail";
+import Swal from "sweetalert2";
 export default function Contacto() {
   const [datos, setDatos] = React.useState({
     nombre: "",
@@ -32,6 +33,10 @@ export default function Contacto() {
       event.target,
       "muR_rneTUlOkLDPRR"
     );
+    Swal.fire({
+      icon: "success",
+      title: "Mensaje enviado con éxito",
+    });
   };
   return (
     <div className="container-form">

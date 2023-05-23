@@ -4,16 +4,20 @@
   display: flex;
   flex-direction: column;
   margin: 50px 0px;
+  height: 200px;
 }
 
 .title-quiensoy {
+  position: relative;
   font-weight: 400;
   cursor: pointer;
+  font-size: 40px;
 }
 
 .title-porqueyo {
   font-weight: 400;
   cursor: pointer;
+  font-size: 40px;
 }
 
 .sobremi-quiensoy,
@@ -24,6 +28,7 @@
   justify-content: center;
   color: #02203c;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .container-flecha {
@@ -47,32 +52,39 @@
 
 /* Mostrar o desaparecer el texto  */
 
-.quiensoy-hidden {
-  margin: -1.7rem;
-  z-index: -100000;
-}
-
 .porqueyo-hidden {
   margin: -1.3rem;
 }
 
 .hidden {
-  position: absolute;
   color: transparent;
   transform: translateX(-100%);
+  transform: translateY(60%);
   z-index: -100000;
+  margin: -1.7rem;
+  z-index: -100000;
+  transition: all 3s ease;
 }
 
+.hiddenDos {
+  transform: translateX(200%);
+  transform: translateY(100%);
+  transition: all 2s ease;
+}
 .visible {
   border-radius: 20px;
   padding: 0px 40px;
-  color: #445d6e;
   font-size: 17px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   transform: translateX(0);
-  transition: all 1s ease;
+  transform: translateY(0);
+  transition: all 1.2s ease;
   z-index: 100000;
-  font-weight: 300;
+  font-weight: 400;
+  color: hsl(190, 8%, 45%);
+}
+.visibleDos {
+  transition: all 1s ease;
 }
 
 /* ///////////////////////////////// */
