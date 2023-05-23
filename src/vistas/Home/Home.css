@@ -53,7 +53,7 @@
 .home-nombre {
   color: #fff;
   text-align: center;
-  font-size: 2rem;
+  font-size: 50px;
   font-weight: 400;
 }
 
@@ -61,6 +61,17 @@
   color: #829da2;
   font-weight: 400;
   text-align: center;
+  font-size: 30px;
+}
+
+.github,
+.linkedin,
+.whatsapp {
+  padding: 10px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
 .home-button {
@@ -88,15 +99,6 @@
   padding-left: 7px;
 }
 
-.github,
-.linkedin,
-.whatsapp {
-  padding: 10px;
-  font-size: 30px;
-  color: #fff;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-}
 .github:active,
 .linkedin:active,
 .whatsapp:active {
