@@ -1,32 +1,16 @@
 import React from "react";
 import "./SobreMi.css";
 export default function SobreMi() {
-  const [flechaUno, setFlechaUno] = React.useState(true);
-  const [flechaDos, setFlechaDos] = React.useState(true);
-  const handlerFlechaUno = (e) => {
-    setFlechaUno(!flechaUno);
-  };
-  const handlerFlechaDos = (e) => {
-    setFlechaDos(!flechaDos);
-  };
-
   return (
     <div className="sobremi-container">
       <div>
-        <div className="sobremi-quiensoy" onClick={handlerFlechaUno}>
+        <div className="sobremi-quiensoy">
           <h2 className="title-quiensoy" id="sobremi">
             Sobre mí
           </h2>
-          <i
-            className={
-              flechaUno === false
-                ? "bi bi-arrow-right flecha"
-                : "bi bi-arrow-right flecha rotate"
-            }
-            onClick={handlerFlechaUno}
-          />
+          <i className="bi bi-arrow-right flecha rotate" />
         </div>
-        <p className={!flechaUno ? "hidden" : "visible sobremi-texto"}>
+        <p className="visible sobremi-texto">
           Soy Julian Lopez. Siempre tuve afinidad y atracción con el mundo de la
           tecnología. Después de terminar la escuela, por meses me sentí
           estancado y sin saber qué hacer, hasta que conocí el desarrollo web y
@@ -39,26 +23,11 @@ export default function SobreMi() {
         </p>
       </div>
       <div>
-        <div className="sobremi-yo" onClick={handlerFlechaDos}>
+        <div className="sobremi-yo">
           <h2 className="title-porqueyo">¿Por qué yo?</h2>
-          <i
-            className={
-              flechaDos === false
-                ? "bi bi-arrow-right flecha"
-                : "bi bi-arrow-right flecha rotate"
-            }
-            name="dos"
-            onClick={handlerFlechaDos}
-          />
+          <i className="bi bi-arrow-right flecha rotate" name="dos" />
         </div>
-        <p
-          className={
-            !flechaDos
-              ? "hidden hiddenDos porqueyo-hidden"
-              : "visible visibleDos"
-          }
-        >
-          {" "}
+        <p className="visible visibleDos">
           Soy un chico muy comprometido y entusiasmado por tener su primer
           trabajo en esta profesión que me apasiona. Me adapto rápido al equipo
           de trabajo, soy empático, social y me gusta conocer más sobre mis

@@ -11,13 +11,11 @@
 .title-quiensoy {
   position: relative;
   font-weight: 400;
-  cursor: pointer;
   font-size: 40px;
 }
 
 .title-porqueyo {
   font-weight: 400;
-  cursor: pointer;
   font-size: 40px;
 }
 
@@ -28,7 +26,6 @@
   gap: 20px;
   justify-content: center;
   color: #02203c;
-  cursor: pointer;
   font-size: 18px;
   padding: 0px 40px;
 }
