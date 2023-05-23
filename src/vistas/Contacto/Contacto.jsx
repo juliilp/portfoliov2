@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contacto.css";
+import emailjs from "@emailjs/browser";
 import enviarEmail from "./enviarEmail";
 export default function Contacto() {
   const [datos, setDatos] = React.useState({
@@ -21,10 +22,16 @@ export default function Contacto() {
     enviarEmail(nombre, email, descripcion);
     e.preventDefault();
     setDatos({
-      nombre: "",
-      email: "",
-      descripcion: "",
+      user_name: "",
+      user_email: "",
+      user_message: "",
     });
+    emailjs.sendForm(
+      "service_9rxyjn7",
+      "template_2te83ed",
+      event.target,
+      "muR_rneTUlOkLDPRR"
+    );
   };
   return (
     <div className="container-form">
@@ -34,10 +41,10 @@ export default function Contacto() {
           <span className="span-contacto">Nombre</span>
           <input
             type="text"
-            name="nombre"
+            name="user_name"
             onChange={handlerForm}
             className="input-contacto"
-            value={datos.nombre}
+            value={datos.user_name}
             placeholder="name"
           />
         </div>
@@ -45,22 +52,22 @@ export default function Contacto() {
           <span className="span-contacto">Email</span>
           <input
             type="email"
-            name="email"
+            name="user_email"
             placeholder="name@gmail.com"
             onChange={handlerForm}
             className="input-contacto"
-            value={datos.email}
+            value={datos.user_email}
           />
         </div>
         <div className="container-span-input">
           <span className="span-contacto">Mensaje</span>
           <textarea
-            name="descripcion"
+            name="user_message"
             onChange={handlerForm}
             className="input-contacto"
             placeholder="Mensaje"
             rows={4}
-            value={datos.descripcion}
+            value={datos.user_message}
           />
         </div>
         <button className="button-contacto">Enviar mensaje</button>
