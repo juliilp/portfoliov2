@@ -25,10 +25,10 @@ export default function Home() {
             href="https://www.linkedin.com/in/julian-lopez-7b9746234/"
             target="_blank"
           >
-            <i className="bi bi-linkedin linkedin" target="_blank" />
+            <i className="bi bi-linkedin linkedin" />
           </a>
-          <a href="https://wa.me/1123820130">
-            <i className="bi bi-whatsapp whatsapp " target="_blank" />
+          <a href="https://wa.me/1123820130" target="_blank">
+            <i className="bi bi-whatsapp whatsapp " />
           </a>
         </div>
         <div className="container-home-buttons">
