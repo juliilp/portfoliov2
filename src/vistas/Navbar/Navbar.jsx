@@ -42,9 +42,9 @@ export default function Navbar() {
             />
           </li>
           <li>
-            <a href="#inicio">
+            <a href="#tecnologias">
               <i className="uil uil-estate icon " />
-              <span className="letra-icon">Inicio</span>
+              <span className="letra-icon">Tecnologias</span>
             </a>
           </li>
           <li>
@@ -65,7 +65,7 @@ export default function Navbar() {
               <span className="letra-icon">Contacto</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <img
               src={idioma ? En : Esp}
               alt="img idioma"
@@ -76,7 +76,7 @@ export default function Navbar() {
             <span className="letra-icon" onClick={handlerIdioma}>
               {idioma ? "English" : "Español"}
             </span>
-          </li>
+          </li> */}
         </ul>
       </header>
       <ul className={activeMenu === true ? "ul open" : "ul closed"}>
