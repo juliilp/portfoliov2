@@ -7,14 +7,16 @@ const data = [
   {
     name: "Mercado Solidario",
     imagen: MercadoSolidario,
-    texto: "Soy texto asdasd",
+    texto:
+      "Proyecto grupal y para un cliente que contiene dashboard, login local y de terceros, implementación de api, envio de emails, chatbot, método de pago, filtros y mucho más",
     web: "https://mercadosolidario.vercel.app/",
     github: "https://github.com/juliilp/mercadosolidario",
   },
   {
     name: "Food App",
     imagen: FoodApp,
-    texto: "texto2",
+    texto:
+      "Proyecto individual con consumo de api, realizando su respectiva base de datos, backend y frontend",
     web: "https://project-food-two.vercel.app/",
     github: "https://github.com/juliilp/Project-Food",
   },
