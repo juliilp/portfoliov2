@@ -40,7 +40,7 @@ export default function Contacto() {
   };
   return (
     <div className="container-form">
-      <h2 className="container-title">¡Contactemonos!</h2>
+      <h2 className="container-title">¡Contactémonos!</h2>
       <form className="form" onSubmit={submitHandler} id="contacto">
         <div className="container-span-input">
           <span className="span-contacto">Nombre</span>
