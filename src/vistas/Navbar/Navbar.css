@@ -5,11 +5,14 @@
 }
 
 li {
+  list-style: none;
+}
+
+.nombre-icon-container {
   display: flex;
   align-items: center;
   gap: 15px;
   text-align: center;
-  list-style: none;
 }
 
 .mi-nombre {

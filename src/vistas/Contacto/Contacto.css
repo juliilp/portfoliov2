@@ -40,9 +40,11 @@
   outline: none;
   border: 1px solid gray;
   padding: 10px 5px;
+  font-family: "Poppins";
 }
 
 textarea {
+  font-family: "Poppins";
   resize: none;
   border: 1px solid blue;
 }

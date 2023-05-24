@@ -23,14 +23,14 @@ export default function Navbar() {
             className={activeMenu ? "bi bi-list" : "bi bi-list menu"}
             onClick={handlerActiveMenu}
           />
-          <i
+          {/* <i
             className={
               colorbg
                 ? "uil uil-moon change-theme menu"
                 : "uil uil-moon change-theme uil-sun menu sol"
             }
             onClick={handlerColorBg}
-          />
+          /> */}
         </nav>
         <h3 className="mi-nombre">Julian Lopez Padua</h3>
 
@@ -87,30 +87,46 @@ export default function Navbar() {
           />
         </li>
         <li>
-          <a href="#tecnologias" onClick={handlerActiveMenu}>
+          <a
+            href="#tecnologias"
+            onClick={handlerActiveMenu}
+            className="nombre-icon-container"
+          >
             <i className="uil uil-estate icon " />
             <span className="letra-icon">Tecnologías</span>
           </a>
         </li>
         <li>
-          <a href="#sobremi" onClick={handlerActiveMenu}>
+          <a
+            href="#sobremi"
+            onClick={handlerActiveMenu}
+            className="nombre-icon-container"
+          >
             <i className="uil uil-user icon " />
             <span className="letra-icon">Sobre mí</span>
           </a>
         </li>
         <li>
-          <a href="#proyectos" onClick={handlerActiveMenu}>
+          <a
+            href="#proyectos"
+            onClick={handlerActiveMenu}
+            className="nombre-icon-container"
+          >
             <i className="uil uil-scenery icon " />
             <span className="letra-icon">Proyectos</span>
           </a>
         </li>
         <li>
-          <a href="#contacto" onClick={handlerActiveMenu}>
+          <a
+            href="#contacto"
+            onClick={handlerActiveMenu}
+            className="nombre-icon-container"
+          >
             <i className="uil uil-message icon " />
             <span className="letra-icon">Contacto</span>
           </a>
         </li>
-        <li>
+        {/* <li>
           <img
             src={idioma ? En : Esp}
             alt="img idioma"
@@ -120,7 +136,7 @@ export default function Navbar() {
           <span className="letra-icon" onClick={handlerIdioma}>
             {idioma ? "English" : "Español"}
           </span>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
