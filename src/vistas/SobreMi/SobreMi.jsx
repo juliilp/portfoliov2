@@ -17,7 +17,7 @@ export default function SobreMi() {
           después me recibí del bootcamp Soy Henry que disfruté mucho, en el
           cual conocí gente con la misma pasión que yo, y desarrollé buenos
           proyectos individuales y grupales con excelentes equipos de compañeros
-          😊
+          😊.
         </p>
       </div>
       <div className="sobremi-container-hijo">
