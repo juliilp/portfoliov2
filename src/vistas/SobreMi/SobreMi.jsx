@@ -2,15 +2,13 @@ import React from "react";
 import "./SobreMi.css";
 export default function SobreMi() {
   return (
-    <div className="sobremi-container">
-      <div>
-        <div className="sobremi-quiensoy">
-          <h2 className="title-quiensoy" id="sobremi">
-            Sobre mí
-          </h2>
-          <i className="bi bi-arrow-right flecha rotate" />
+    <div className="sobremi-container" id="sobremi">
+      <div className="sobremi-container-hijo">
+        <div className="container-title-flecha">
+          <h2 className="sobremi-title">Sobre mí</h2>
+          <i className="bi bi-arrow-right flecha" />
         </div>
-        <p className="visible sobremi-texto">
+        <p className="sobremi-texto">
           Soy Julian Lopez. Siempre tuve afinidad y atracción con el mundo de la
           tecnología. Después de terminar la escuela, por meses me sentí
           estancado y sin saber qué hacer, hasta que conocí el desarrollo web y
@@ -22,12 +20,12 @@ export default function SobreMi() {
           😊
         </p>
       </div>
-      <div>
-        <div className="sobremi-yo">
-          <h2 className="title-porqueyo">¿Por qué yo?</h2>
-          <i className="bi bi-arrow-right flecha rotate" name="dos" />
+      <div className="sobremi-container-hijo">
+        <div className="container-title-flecha">
+          <h2 className="sobremi-title">¿Por qué yo?</h2>
+          <i className="bi bi-arrow-right flecha" />
         </div>
-        <p className="visible visibleDos">
+        <p className="sobremi-texto">
           Soy un chico muy comprometido y entusiasmado por tener su primer
           trabajo en esta profesión que me apasiona. Me adapto rápido al equipo
           de trabajo, soy empático, social y me gusta conocer más sobre mis
@@ -36,9 +34,6 @@ export default function SobreMi() {
           situación para buscar soluciones adecuadas y enfocadas. Me gusta mucho
           aprender y enseñar, a la vez que soy receptivo. Soy creyente de que
           todos tenemos algo que enseñarnos 😉.
-          {/* Si tuviera que elegir una frase que
-          me represente, diría que "para el conocimiento siempre hay espacio
-          disponible" 😉 */}
         </p>
       </div>
     </div>
