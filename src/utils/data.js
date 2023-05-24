@@ -8,7 +8,7 @@ const data = [
     name: "Mercado Solidario",
     imagen: MercadoSolidario,
     texto:
-      "Proyecto grupal y para un cliente que contiene dashboard, login local y de terceros, implementación de api, envio de emails, chatbot, método de pago, filtros y mucho más",
+      "Proyecto grupal para un cliente que contiene dashboard, login local y de terceros, implementación de api, envio de emails, chatbot, método de pago, filtros y mucho más",
     web: "https://mercadosolidario.vercel.app/",
     github: "https://github.com/juliilp/mercadosolidario",
   },
@@ -23,14 +23,16 @@ const data = [
   {
     name: "Videogames app",
     imagen: VideoGames,
-    texto: "texto3",
+    texto:
+      "Proyecto con consumo de api, con base de datos, opción de creación de videojuegos, filtros y búsqueda por id",
     web: "https://videogames-pi-lyart.vercel.app/",
     github: "https://github.com/juliilp/Project-Videogames",
   },
   {
-    name: "Gygabite",
+    name: "Gigabyte",
     imagen: Gigabyte,
-    texto: "texto4",
+    texto:
+      "Este proyecto no tiene funcionalidad, está hecho con clases reutilizables, desktop first y animaciones con framer motion",
     web: "https://gigabyte-gallery.vercel.app/",
     github: "https://github.com/juliilp/Gigabyte-Gallery",
   },
