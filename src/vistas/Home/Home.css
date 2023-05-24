@@ -120,7 +120,7 @@
 @media (min-width: 768px) {
   .container-home {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 55% 45%;
   }
   .container-img-mobile {
     order: 5;
