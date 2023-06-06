@@ -1,37 +1,17 @@
 import React from "react";
 import "./Navbar.css";
-// import En from "../../assets/english.png";
-// import Esp from "../../assets/spain.svg";
-import Hamburger from "hamburger-react";
 export default function Navbar() {
   const [activeMenu, setActiveMenu] = React.useState(false);
-  const [idioma, setIdioma] = React.useState(false);
-  const [colorbg, setColorBg] = React.useState(false);
   const handlerActiveMenu = () => {
     setActiveMenu(!activeMenu);
-  };
-  const handlerIdioma = () => {
-    setIdioma(!idioma);
-  };
-  const handlerColorBg = () => {
-    setColorBg(!colorbg);
   };
   return (
     <div>
       <header className="header">
-        <nav className="container-icons">
+        <nav className="container-iconsss">
           <i
             className={activeMenu ? "bi bi-list" : "bi bi-list menu"}
             onClick={handlerActiveMenu}
-          />
-          <Hamburger
-            direction="right"
-            color="000000"
-            duration={0.1}
-            size={32}
-            onToggle={(togle) => {
-              togle ? setActiveMenu(!activeMenu) : setActiveMenu(!activeMenu);
-            }}
           />
         </nav>
         <h3 className="mi-nombre">Julian Lopez Padua</h3>

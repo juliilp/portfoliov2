@@ -68,7 +68,7 @@ li {
   background-color: #00334c;
 }
 
-.container-icons {
+.container-iconsss {
   display: flex;
   gap: 15px;
 }
@@ -106,7 +106,7 @@ li {
   .ul {
     display: none;
   }
-  .container-icons {
+  .container-iconsss {
     display: none;
   }
 
