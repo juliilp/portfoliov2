@@ -6,7 +6,7 @@ export const Mercado = {
   image: MercadoSolidario,
   titulo: "Mercado Solidario",
   texto:
-    "Proyecto grupal para un cliente que contiene dashbord, login local y de terceros, implementación de api, envio de emails, chatbot, método de pago, filtros combinados y mucho más",
+    "Proyecto grupal de 8 integrantes para un cliente, usamos git-flow,metodología scrum y la app contiene dashboard, login local y de terceros, implementación de api, envio de emails, chatbot, método de pago, filtros combinados y mucho más",
   github: "https://github.com/juliilp/mercadosolidario",
   pagina: "https://mercadosolidario.vercel.app/",
   tecnologias: "Html, CSS, Tailwind, Javascript React, NextJS, MongoDB, Prisma",
@@ -17,7 +17,7 @@ export const VideoGames = {
   image: VideoGamesApp,
   titulo: "Videogames App",
   texto:
-    "Proyecto con consumo de api, con base de datos, opción de creación de videojuegos, filtros y búsqueda por id",
+    "Este proyecto fue realizado de manera individual,consumiendo una api y en base a eso construyendo su respectivo backend con sus rutas protegidas, base de datos,frontend y reforzando conocimientos con opciones de crear videojuego, filtros combinados, selección por id, responsive design, paginado y mucho más",
   github: "https://github.com/juliilp/Project-Videogames",
   pagina: "https://videogames-pi-lyart.vercel.app/",
   tecnologias: "Html, CSS, Javascript, React, Redux, Express, PostgreSQL",
@@ -39,7 +39,7 @@ export const FoodApp = {
   titulo: "Food App",
   image: FoodAppImg,
   texto:
-    "Proyecto individual con consumo de api, realizando su respectiva base de datos, backend y frontend",
+    "Éste proyecto fue realizado de manera individual, consumiendo una api y en base a eso, la creación de base de datos, backend y frontend. He realizado formularios controlados, paginado, filtros combinados, responsive design y mucho más",
   github: "https://github.com/juliilp/Project-Food",
   pagina: "https://project-food-two.vercel.app/",
   tecnologias: "Html, CSS, Javascript, React, Redux, Express, PostgreSQL",
