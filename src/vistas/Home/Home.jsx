@@ -4,7 +4,7 @@ import imgMobile from "../../assets/img-mobile.svg";
 import CV from "../../../CV.pdf";
 export default function Home() {
   return (
-    <div className="container-home">
+    <main className="container-home">
       <picture className="container-img-mobile">
         <img
           src={imgMobile}
@@ -47,6 +47,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

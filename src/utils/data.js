@@ -1,7 +1,7 @@
 import MercadoSolidario from "../assets/mercadosolidario/mercadosolidario.png";
-import FoodApp from "../assets/foodapp/foodapp1366.png";
-import VideoGames from "../assets/videogamesapp/videogames1345.png";
-import Gigabyte from "../assets/gigabyteapp/gigabyte1351.png";
+import FoodApp from "../assets/foodapp/foodapp.png";
+import VideoGames from "../assets/videogamesapp/videogamesapp.png";
+import Gigabyte from "../assets/gigabyteapp/gigabyte.png";
 
 const data = [
   {

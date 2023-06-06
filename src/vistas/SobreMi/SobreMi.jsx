@@ -2,7 +2,7 @@ import React from "react";
 import "./SobreMi.css";
 export default function SobreMi() {
   return (
-    <div className="sobremi-container" id="sobremi">
+    <section className="sobremi-container" id="sobremi">
       <div className="sobremi-container-hijo">
         <div className="container-title-flecha">
           <h2 className="sobremi-title">Sobre mí</h2>
@@ -36,6 +36,6 @@ export default function SobreMi() {
           todos tenemos algo que enseñarnos 😉.
         </p>
       </div>
-    </div>
+    </section>
   );
 }

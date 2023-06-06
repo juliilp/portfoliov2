@@ -7,16 +7,18 @@ import Footer from "./vistas/Footer/Footer";
 import Navbar from "./vistas/Navbar/Navbar";
 import Tecnologias from "./vistas/Tecnologias/Tecnologias";
 import "./App.css";
+import Proyectosv2 from "./vistas/Proyectosv2/Proyectosv2";
 export default function App() {
   return (
-    <div className="container-todo">
+    <main className="container-todo">
       <Navbar />
       <Home />
       <Tecnologias />
       <SobreMi />
-      <Proyectos />
+      {/* <Proyectos /> */}
+      <Proyectosv2 />
       <Contacto />
       <Footer />
-    </div>
+    </main>
   );
 }
