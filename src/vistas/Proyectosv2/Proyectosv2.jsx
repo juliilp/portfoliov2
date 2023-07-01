@@ -7,6 +7,7 @@ import {
   VideoGames,
   Gigabyte,
   FoodApp,
+  VeggieBudiness,
 } from "../../utils/dataProyectos";
 export default function Proyectosv2() {
   return (
@@ -51,6 +52,16 @@ export default function Proyectosv2() {
             github={FoodApp.github}
             pagina={FoodApp.pagina}
             tecnologias={FoodApp.tecnologias}
+          />
+        }
+        {
+          <CardProyectov2
+            image={VeggieBudiness.image}
+            titulo={VeggieBudiness.titulo}
+            texto={VeggieBudiness.texto}
+            github={VeggieBudiness.github}
+            pagina={VeggieBudiness.pagina}
+            tecnologias={VeggieBudiness.tecnologias}
           />
         }
       </div>

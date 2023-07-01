@@ -35,7 +35,7 @@ export default function CardProyectov2({
               <FaGithub size={30} />
             </a>
             <a href={pagina} target="_blank">
-              <RiComputerFill size={35} />
+              <RiComputerFill size={35} color="#551A8B" />
             </a>
           </div>
         </div>

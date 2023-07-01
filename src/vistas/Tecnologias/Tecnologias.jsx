@@ -9,6 +9,7 @@ import {
   SiExpress,
   SiPostgresql,
   SiTypescript,
+  SiTailwindcss,
 } from "react-icons/si";
 import "./Tecnologias.css";
 export default function Tecnologias() {
@@ -23,6 +24,10 @@ export default function Tecnologias() {
         <div className="tecnologias">
           <SiCss3 size="2rem" color="#6781FA" />
           <span className="tecnologia-span">Css</span>
+        </div>
+        <div className="tecnologias">
+          <SiTailwindcss size="2rem" color="#07B0CE" />
+          <span className="tecnologia-span">Tailwind</span>
         </div>
         <div className="tecnologias">
           <SiJavascript
