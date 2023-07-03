@@ -11,7 +11,7 @@ import {
 } from "../../utils/dataProyectos";
 export default function Proyectosv2() {
   return (
-    <section className="section-proyectov2">
+    <section className="section-proyectov2" id="proyectos" >
       <h2 className="section-proyectov2-title">Proyectos</h2>
       <div className="Proyectos">
         {

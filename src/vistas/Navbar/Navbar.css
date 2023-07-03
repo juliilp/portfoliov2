@@ -59,6 +59,9 @@ li {
 }
 .header {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
@@ -67,7 +70,6 @@ li {
   padding: 0 20px;
   background-color: #00334c;
 }
-
 .container-iconsss {
   display: flex;
   gap: 15px;
@@ -111,10 +113,9 @@ li {
   }
 
   .header {
-    position: relative;
-    top: 0;
     justify-content: space-around;
     width: 100vw;
+    scroll-margin-top: 30rem;
   }
   .ul-adentro {
     display: flex;
