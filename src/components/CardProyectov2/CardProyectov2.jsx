@@ -32,7 +32,7 @@ export default function CardProyectov2({
           <h2>{titulo}</h2>
           <div className="container-icons">
             <a href={github} target="_blank">
-              <FaGithub size={30} />
+              <FaGithub size={30} color="#0101EE" />
             </a>
             <a href={pagina} target="_blank">
               <RiComputerFill size={35} color="#551A8B" />
