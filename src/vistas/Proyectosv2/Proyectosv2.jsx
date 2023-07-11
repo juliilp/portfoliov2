@@ -8,10 +8,11 @@ import {
   Gigabyte,
   FoodApp,
   VeggieBudiness,
+  AppEcommerce,
 } from "../../utils/dataProyectos";
 export default function Proyectosv2() {
   return (
-    <section className="section-proyectov2" id="proyectos" >
+    <section className="section-proyectov2" id="proyectos">
       <h2 className="section-proyectov2-title">Proyectos</h2>
       <div className="Proyectos">
         {
@@ -62,6 +63,16 @@ export default function Proyectosv2() {
             github={VeggieBudiness.github}
             pagina={VeggieBudiness.pagina}
             tecnologias={VeggieBudiness.tecnologias}
+          />
+        }
+        {
+          <CardProyectov2Inverse
+            image={AppEcommerce.image}
+            titulo={AppEcommerce.titulo}
+            texto={AppEcommerce.texto}
+            github={AppEcommerce.github}
+            pagina={AppEcommerce.pagina}
+            tecnologias={AppEcommerce.tecnologias}
           />
         }
       </div>

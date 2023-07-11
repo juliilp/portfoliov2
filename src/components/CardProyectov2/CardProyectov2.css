@@ -40,6 +40,10 @@
 .img-proyectov2 {
   width: 100%;
   height: 100%;
+  transition: 0.3s all;
+}
+.img-proyectov2:hover {
+  transform: scale(1.05);
 }
 
 .container-title-links {

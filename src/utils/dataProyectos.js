@@ -3,6 +3,7 @@ import VideoGamesApp from "../assets/videogamesapp/videogamesapp.png";
 import GigabyteImg from "../assets/gigabyteapp/gigabyte.png";
 import FoodAppImg from "../assets/foodapp/foodapp.png";
 import VeggieBudinessImg from "../assets/veggiebudiness/veggiebudiness.png";
+import Ecommerce from "../assets/ecommerce-react/ecommerce-react.png";
 export const Mercado = {
   image: MercadoSolidario,
   titulo: "Mercado Solidario",
@@ -57,4 +58,14 @@ export const VeggieBudiness = {
   pagina: "https://veggie-budiness.vercel.app/",
   tecnologias: "Html, CSS, Tailwind, Javascript, React, Figma.",
   reverse: true,
+};
+
+export const AppEcommerce = {
+  titulo: "Ecommerce App",
+  image: Ecommerce,
+  texto:
+    "Este proyecto fue realizado de manera individual, consumiendo una api y tiene panel de admin, responsive design, carrito de compras, creacion de productos siendo solo administrador, sector de favoritos, los datos no se eliminan al recargar la pagina, formularios controlados, filtro de búsqueda, visualización, detalle y especificaciones de cada producto y carteles de alertas y notificaciones",
+  github: "https://github.com/juliilp/ecommerce-react",
+  pagina: "https://project-ecommerce-julian.vercel.app/",
+  tecnologias: "Html, CSS, Tailwind, Javascript, React",
 };
