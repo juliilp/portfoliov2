@@ -61,11 +61,11 @@ export const VeggieBudiness = {
 };
 
 export const AppEcommerce = {
-  titulo: "Ecommerce App",
+  titulo: "InnovaWeb",
   image: Ecommerce,
   texto:
     "Este proyecto fue realizado de manera individual, consumiendo una api y tiene panel de admin, responsive design, carrito de compras, creacion de productos siendo solo administrador, sector de favoritos, los datos no se eliminan al recargar la pagina, formularios controlados, filtro de búsqueda, visualización, detalle y especificaciones de cada producto y carteles de alertas y notificaciones",
   github: "https://github.com/juliilp/ecommerce-react",
-  pagina: "https://project-ecommerce-julian.vercel.app/",
+  pagina: "https://innovaweb.vercel.app/",
   tecnologias: "Html, CSS, Tailwind, Javascript, React",
 };
