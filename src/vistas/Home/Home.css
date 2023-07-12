@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   width: 100vw;
   height: 80vh;
+  margin-top: 10vh;
   justify-content: space-evenly;
   background: linear-gradient(-45deg, #00334c 50%, #00557f);
 }

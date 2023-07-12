@@ -70,12 +70,8 @@ li {
   padding: 0 20px;
   background-color: #00334c;
 }
-.container-iconsss {
-  display: flex;
-  gap: 15px;
-}
 .ul {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   display: flex;
@@ -97,11 +93,16 @@ li {
 }
 
 .closed {
+  position: fixed;
   transform: translateX(-100%);
 }
 
 .open {
   transform: translateX(0px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
 }
 
 @media (min-width: 768px) {
