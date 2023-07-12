@@ -55,7 +55,7 @@ export const VeggieBudiness = {
   texto:
     "Este proyecto está desarrollandose por el pedido de un cliente de manera freelance. Creamos el diseño en Figma a partir de la paleta de colores y el logo, y mantenemos reuniones frecuentes y comunicación constante para conversar el avance. La web va a tener: responsive design, un catálogo de productos a la venta, un blog de recetas propias del emprendimiento, un sistema de suscripción newsletter, filtro de búsqueda y más funciones.",
   github: "https://github.com/juliilp/veggie-budines",
-  pagina: "https://veggie-budiness.vercel.app/",
+  pagina: "#",
   tecnologias: "Html, CSS, Tailwind, Javascript, React, Figma.",
   reverse: true,
 };
