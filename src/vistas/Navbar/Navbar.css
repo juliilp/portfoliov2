@@ -87,6 +87,9 @@ li {
 .ul-adentro {
   display: none;
 }
+.Hamburguesa {
+  display: block;
+}
 .menu {
   font-size: 25px;
   color: #fff;
@@ -106,6 +109,9 @@ li {
 }
 
 @media (min-width: 768px) {
+  .Hamburguesa {
+    display: none;
+  }
   .ul {
     display: none;
   }

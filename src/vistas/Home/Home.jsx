@@ -72,7 +72,7 @@ export default function Home() {
             transition={{
               duration: 0.7,
               delayChildren: 2,
-              staggerChildren: 0.5,
+              staggerChildren: 0.3,
             }}
           >
             <motion.a

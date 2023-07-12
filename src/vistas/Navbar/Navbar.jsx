@@ -19,10 +19,9 @@ export default function Navbar() {
 
   return (
     <header className="header">
-      <i
-        className={activeMenu ? "bi bi-list" : "bi bi-list menu"}
-        onClick={handlerActiveMenu}
-      />
+      <div className="Hamburguesa">
+        <i className={"bi bi-list menu"} onClick={handlerActiveMenu} />
+      </div>
 
       <h3 className="mi-nombre">Julian Lopez Padua</h3>
 

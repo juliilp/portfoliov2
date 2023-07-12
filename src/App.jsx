@@ -7,22 +7,61 @@ import Navbar from "./vistas/Navbar/Navbar";
 import Tecnologias from "./vistas/Tecnologias/Tecnologias";
 import "./App.css";
 import Proyectosv2 from "./vistas/Proyectosv2/Proyectosv2";
-import { inView, motion, useInView } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
+
+export function Section({ children }) {
+  const variantsOption = {
+    initial: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+    },
+  };
+  const ref = useRef(null);
+  const view = useInView(ref, { once: true });
+  const controls = useAnimation();
+  useEffect(() => {
+    if (view) {
+      console.log(view);
+      controls.start("show");
+    }
+  }, [view]);
+
+  return (
+    <motion.section
+      ref={ref}
+      variants={variantsOption}
+      initial="initial"
+      animate={view ? "show" : "initial"}
+      transition={{ duration: 1, delay: 0.3, delayChildren: 1 }}
+    >
+      <span>{children}</span>
+    </motion.section>
+  );
+}
+
 export default function App() {
   const ref = useRef();
-  const view = useInView(ref, { once: true });
-  useEffect(() => {
-    console.log(view);
-  }, [view]);
   return (
     <motion.main className="container-todo" ref={ref}>
       <Navbar />
       <Home />
-      <Tecnologias />
-      <SobreMi />
-      <Proyectosv2 />
-      <Contacto />
-      <Footer />
+      <Section>
+        <Tecnologias />
+      </Section>
+      <Section>
+        <SobreMi />
+      </Section>
+      <Section>
+        <Proyectosv2 />
+      </Section>
+      <Section>
+        <Contacto />
+      </Section>
+      <Section>
+        <Footer />
+      </Section>
     </motion.main>
   );
 }
