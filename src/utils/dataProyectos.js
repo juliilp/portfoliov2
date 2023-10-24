@@ -5,6 +5,7 @@ import FoodAppImg from "../assets/foodapp/foodapp.png";
 import VeggieBudinessImg from "../assets/veggiebudiness/veggiebudiness.png";
 import Ecommerce from "../assets/ecommerce-react/ecommerce-react.png";
 import PajarosCaidos from "../assets/pajaroscaidos/pajaroscaidos.png";
+import FakeStoreApiImg from "../assets/fake-store-api/fake-store-api.png";
 const dataProyectos = [
   {
     image: PajarosCaidos,
@@ -14,7 +15,6 @@ const dataProyectos = [
     github: "https://github.com/juliilp/frontend-pajaroscaidos",
     pagina: "https://redpajaroscaidos.org/",
     tecnologias: "HTML, CSS, Tailwind, Javascript, React, NextJS.",
-    reverse: true,
   },
   {
     image: MercadoSolidario,
@@ -25,7 +25,6 @@ const dataProyectos = [
     pagina: "https://mercadosolidario.vercel.app/",
     tecnologias:
       "Html, CSS, Tailwind, Javascript, React, NextJS, MongoDB, Prisma.",
-    reverse: false,
   },
   {
     titulo: "Veggie Budiness",
@@ -35,7 +34,16 @@ const dataProyectos = [
     github: "https://github.com/juliilp/veggie-budines",
     pagina: "#",
     tecnologias: "Html, CSS, Tailwind, Javascript, React, Figma.",
-    reverse: true,
+  },
+  {
+    titulo: "fake-store-api",
+    image: FakeStoreApiImg,
+    texto:
+      "Este proyecto es de manera individual con la intención de aprender MongoDB como base de datos y Astro como frontend. Su funcionalidad está especialmente en su backend, donde su único rol del frontend es explicar todas sus rutas del backend, tiene mercadopago, usuarios, productos, rol de admin, páginado, authenticación, relación de esquemas y mucho más",
+    github: "https://github.com/juliilp/Project-fake-api",
+    pagina: "https://project-fake-api.vercel.app/",
+    tecnologias:
+      "Html, CSS, Tailwind, Javascript, React, Astro, NodeJS, Express, MongoDB.",
   },
   {
     titulo: "InnovaWeb",
@@ -54,7 +62,6 @@ const dataProyectos = [
     github: "https://github.com/juliilp/Gigabyte-Gallery",
     pagina: "https://gigabyte-gallery.vercel.app/",
     tecnologias: "Html, CSS, Javascript, React.",
-    reverse: false,
   },
   {
     titulo: "Food App",
@@ -64,7 +71,6 @@ const dataProyectos = [
     github: "https://github.com/juliilp/Project-Food",
     pagina: "https://project-food-two.vercel.app/",
     tecnologias: "Html, CSS, Javascript, React, Redux, Express, PostgreSQL.",
-    reverse: true,
   },
   {
     image: VideoGamesApp,
@@ -74,7 +80,6 @@ const dataProyectos = [
     github: "https://github.com/juliilp/Project-Videogames",
     pagina: "https://videogames-pi-lyart.vercel.app/",
     tecnologias: "Html, CSS, Javascript, React, Redux, Express, PostgreSQL.",
-    reverse: true,
   },
 ];
 
