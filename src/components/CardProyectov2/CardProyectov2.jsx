@@ -1,8 +1,7 @@
-import React from "react";
 import "./CardProyectov2.css";
 import { FaGithub } from "react-icons/fa";
 import { RiComputerFill } from "react-icons/ri";
-import CardTecnologias from "../CardTecnologias/CardTecnologias";
+import PropTypes from "prop-types";
 export default function CardProyectov2({
   image,
   titulo,
@@ -10,13 +9,23 @@ export default function CardProyectov2({
   pagina,
   texto,
   tecnologias,
+  reverse,
 }) {
+  CardProyectov2.propTypes = {
+    image: PropTypes.string.isRequired,
+    titulo: PropTypes.string.isRequired,
+    github: PropTypes.string.isRequired,
+    pagina: PropTypes.string.isRequired,
+    texto: PropTypes.string.isRequired,
+    tecnologias: PropTypes.string.isRequired,
+    reverse: PropTypes.string.isRequired,
+  };
   return (
     <section className="container-card-v2">
-      <div className="container-primerparte">
+      <article className={`container-primerparte ${reverse}`}>
         <a
           href={pagina}
-          target="_blank"
+          target="blank"
           style={{
             width: "100%",
             display: "flex",
@@ -26,15 +35,15 @@ export default function CardProyectov2({
         >
           <img src={image} alt="img-proyecto" className="img-proyectov2" />
         </a>
-      </div>
-      <div className="container-segundaparte">
+      </article>
+      <article className="container-segundaparte">
         <div className="container-title-links">
           <h2>{titulo}</h2>
           <div className="container-icons">
-            <a href={github} target="_blank">
+            <a href={github} target="blank">
               <FaGithub size={30} color="#0101EE" />
             </a>
-            <a href={pagina} target="_blank">
+            <a href={pagina} target="blank">
               <RiComputerFill size={35} color="#551A8B" />
             </a>
           </div>
@@ -45,7 +54,7 @@ export default function CardProyectov2({
         <div className="tecnologias-container">
           <p>Tecnologías: {tecnologias} </p>
         </div>
-      </div>
+      </article>
     </section>
   );
 }

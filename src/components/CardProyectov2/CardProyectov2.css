@@ -15,6 +15,12 @@
   height: 100%;
 }
 
+.reverse {
+  @media (min-width: 768px) {
+    order: 3;
+  }
+}
+
 .container-primerparte a {
   width: 360px;
   max-width: 600px;
