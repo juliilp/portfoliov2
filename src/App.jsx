@@ -23,7 +23,6 @@ export function Section({ children }) {
   const controls = useAnimation();
   useEffect(() => {
     if (view) {
-      console.log(view);
       controls.start("show");
     }
   }, [view]);

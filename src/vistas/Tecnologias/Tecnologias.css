@@ -5,6 +5,7 @@
   gap: 50px;
   margin-top: 10vh;
   margin-bottom: 5vh;
+  padding: 0 30px;
 }
 
 .tecnologias-title {
@@ -32,4 +33,10 @@
 
 .tecnologia-span {
   font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .section-container-tecnologias {
+    padding: 0;
+  }
 }
