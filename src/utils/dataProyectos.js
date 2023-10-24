@@ -36,7 +36,7 @@ const dataProyectos = [
     tecnologias: "Html, CSS, Tailwind, Javascript, React, Figma.",
   },
   {
-    titulo: "fake-store-api",
+    titulo: "Fake-Store-Api",
     image: FakeStoreApiImg,
     texto:
       "Este proyecto es de manera individual con la intención de aprender MongoDB como base de datos y Astro como frontend. Su funcionalidad está especialmente en su backend, donde su único rol del frontend es explicar todas sus rutas del backend, tiene mercadopago, usuarios, productos, rol de admin, páginado, authenticación, relación de esquemas y mucho más",
@@ -55,10 +55,10 @@ const dataProyectos = [
     tecnologias: "Html, CSS, Tailwind, Javascript, React",
   },
   {
-    titulo: "Gigabyte",
+    titulo: "Gigabyte Gallery",
     image: GigabyteImg,
     texto:
-      "Este proyecto no tiene funcionalidad y fue realizado para probar maneras diferentes de realizar las cosas, como clases de CSS reutilizables, desktop first y empezando por lo básico de framer motion",
+      "Este proyecto es una landing page, fue uno de los primeros proyectos realizado solo por mi, no tiene funcionalidad y el objetivo fue aprender nuevas cosas, hacerlo en el menor tiempo posible y probar cosas como clases de CSS globales y reutilizables, desktop first,empezando por lo básico de framer motion, carrousel, librerias de íconos, y muchas otras cosas que se daban en el momento.",
     github: "https://github.com/juliilp/Gigabyte-Gallery",
     pagina: "https://gigabyte-gallery.vercel.app/",
     tecnologias: "Html, CSS, Javascript, React.",

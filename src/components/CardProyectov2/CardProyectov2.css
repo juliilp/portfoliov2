@@ -10,19 +10,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 360px;
+  width: 100%;
   max-width: 600px;
   height: 100%;
 }
 
-.reverse {
-  @media (min-width: 768px) {
-    order: 3;
-  }
-}
-
 .container-primerparte a {
-  width: 360px;
+  width: 100%;
   max-width: 600px;
   height: 100%;
 }
@@ -98,6 +92,9 @@
     justify-self: center;
   }
 
+  .reverse {
+    order: 3;
+  }
   .container-primerparte {
     height: 100%;
     max-height: 250px;

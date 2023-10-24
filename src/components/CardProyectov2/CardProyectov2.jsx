@@ -22,7 +22,7 @@ export default function CardProyectov2({
   };
   return (
     <section className="container-card-v2">
-      <article className={`container-primerparte ${reverse}`}>
+      <article className={`container-primerparte  ${reverse}`}>
         <a
           href={pagina}
           target="blank"
