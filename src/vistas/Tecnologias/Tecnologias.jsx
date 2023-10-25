@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import {
   SiHtml5,
   SiCss3,
@@ -11,6 +11,8 @@ import {
   SiTypescript,
   SiTailwindcss,
 } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { SiPrisma, SiSequelize, SiAstro } from "react-icons/si";
 import "./Tecnologias.css";
 import { motion, useInView } from "framer-motion";
 
@@ -75,12 +77,28 @@ export default function Tecnologias() {
           <span className="tecnologia-span">Next</span>
         </motion.div>
         <motion.div className="tecnologias" variants={motionOption}>
+          <SiAstro size="2rem" />
+          <span className="tecnologia-span">Astro</span>
+        </motion.div>
+        <motion.div className="tecnologias" variants={motionOption}>
           <SiExpress size="2rem" />
           <span className="tecnologia-span">Express</span>
         </motion.div>
         <motion.div className="tecnologias" variants={motionOption}>
           <SiPostgresql size="2rem" color="#31628B" />
-          <span className="tecnologia-span">Postgresql</span>
+          <span className="tecnologia-span">PostgreSQL</span>
+        </motion.div>
+        <motion.div className="tecnologias" variants={motionOption}>
+          <DiMongodb size="2rem" />
+          <span className="tecnologia-span">MongoDB</span>
+        </motion.div>
+        <motion.div className="tecnologias" variants={motionOption}>
+          <SiSequelize size="2rem" />
+          <span className="tecnologia-span">Sequelize</span>
+        </motion.div>
+        <motion.div className="tecnologias" variants={motionOption}>
+          <SiPrisma size="2rem" />
+          <span className="tecnologia-span">Prisma</span>
         </motion.div>
         <motion.div className="tecnologias" variants={motionOption}>
           <SiTypescript size="2rem" color="#2F74C0" />
