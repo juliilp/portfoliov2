@@ -11,7 +11,7 @@ const dataProyectos = [
     image: PajarosCaidos,
     titulo: "Refugio de aves - Pájaros Caidos",
     texto:
-      "Proyecto grupal donde lideré un equipo de 6 integrantes para un cliente utilizando la metodologia scrum, realicé el maquetado de casi 30 páginas, así como también encargado de la lógica y sus formularios.",
+      "Este fue un proyecto grupal para un cliente. Ocupé el rol de líder y desarrollador en un equipo de 6 integrantes. Empleamos la metodología Scrum para agilizar. También realicé el maquetado de +25 páginas, me encargué de la lógica y sus formularios.",
     github: "https://github.com/juliilp/frontend-pajaroscaidos",
     pagina: "https://redpajaroscaidos.org/",
     tecnologias: "HTML, CSS, Tailwind, Javascript, React, NextJS.",
