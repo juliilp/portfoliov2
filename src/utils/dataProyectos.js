@@ -6,6 +6,7 @@ import VeggieBudinessImg from "../assets/veggiebudiness/veggiebudiness.png";
 import Ecommerce from "../assets/ecommerce-react/ecommerce-react.png";
 import PajarosCaidos from "../assets/pajaroscaidos/pajaroscaidos.png";
 import FakeStoreApiImg from "../assets/fake-store-api/fake-store-api.png";
+import PixelaApp from "../assets/PixelaApp/PixelaApp.jpeg";
 const dataProyectos = [
   {
     image: PajarosCaidos,
@@ -36,6 +37,24 @@ const dataProyectos = [
     tecnologias: "Html, CSS, Tailwind, Javascript, React, Figma.",
   },
   {
+    titulo: "InnovaWeb",
+    image: Ecommerce,
+    texto:
+      "Este proyecto fue realizado de manera individual, consumiendo una api y tiene panel de admin, responsive design, carrito de compras, creacion de productos siendo solo administrador, sector de favoritos, los datos no se eliminan al recargar la pagina, formularios controlados, filtro de búsqueda, visualización, detalle y especificaciones de cada producto y carteles de alertas y notificaciones",
+    github: "https://github.com/juliilp/ecommerce-react",
+    pagina: "https://innovaweb.vercel.app/",
+    tecnologias: "Html, CSS, Tailwind, Javascript, React",
+  },
+  {
+    titulo: "PixelaApp",
+    image: PixelaApp,
+    texto:
+      "Este proyecto fue realizado de manera individual, especializandome con el localstorage y la actualizacion de componentes en tiempo real, y tiene juegos como un quizz-app y un contador de chinchon creando jugares y sus puntos, así como teniendo una navbar condicional dependiendo el juego ",
+    github: "https://github.com/juliilp/quiz-app",
+    pagina: "https://pixela-app.vercel.app/",
+    tecnologias: "Html, CSS, Tailwind, Javascript, React, Typescript",
+  },
+  {
     titulo: "Fake-Store-Api",
     image: FakeStoreApiImg,
     texto:
@@ -44,15 +63,6 @@ const dataProyectos = [
     pagina: "https://project-fake-api.vercel.app/",
     tecnologias:
       "Html, CSS, Tailwind, Javascript, React, Astro, NodeJS, Express, MongoDB.",
-  },
-  {
-    titulo: "InnovaWeb",
-    image: Ecommerce,
-    texto:
-      "Este proyecto fue realizado de manera individual, consumiendo una api y tiene panel de admin, responsive design, carrito de compras, creacion de productos siendo solo administrador, sector de favoritos, los datos no se eliminan al recargar la pagina, formularios controlados, filtro de búsqueda, visualización, detalle y especificaciones de cada producto y carteles de alertas y notificaciones",
-    github: "https://github.com/juliilp/ecommerce-react",
-    pagina: "https://innovaweb.vercel.app/",
-    tecnologias: "Html, CSS, Tailwind, Javascript, React",
   },
   {
     titulo: "Gigabyte Gallery",
