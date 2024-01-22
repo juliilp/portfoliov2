@@ -1,12 +1,12 @@
-import MercadoSolidario from "../assets/mercadosolidario/mercadosolidario.png";
-import VideoGamesApp from "../assets/videogamesapp/videogamesapp.png";
-import GigabyteImg from "../assets/gigabyteapp/gigabyte.png";
-import FoodAppImg from "../assets/foodapp/foodapp.png";
-import VeggieBudinessImg from "../assets/veggiebudiness/veggiebudiness.png";
-import Ecommerce from "../assets/ecommerce-react/ecommerce-react.png";
-import PajarosCaidos from "../assets/pajaroscaidos/pajaroscaidos.png";
-import FakeStoreApiImg from "../assets/fake-store-api/fake-store-api.png";
-import PixelaApp from "../assets/PixelaApp/PixelaApp.jpeg";
+import MercadoSolidario from "../assets/mercadosolidario.png";
+import VideoGamesApp from "../assets/videogamesapp.png";
+import GigabyteImg from "../assets//gigabyte.png";
+import FoodAppImg from "../assets//foodapp.png";
+import VeggieBudinessImg from "../assets/veggiebudiness.png";
+import Ecommerce from "../assets/ecommerce-react.png";
+import PajarosCaidos from "../assets/pajaroscaidos.png";
+import FakeStoreApiImg from "../assets/fake-store-api.png";
+import PixelaApp from "../assets/PixelaApp.jpeg";
 const dataProyectos = [
   {
     image: PajarosCaidos,
