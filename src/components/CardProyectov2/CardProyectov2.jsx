@@ -33,7 +33,12 @@ export default function CardProyectov2({
             alignItems: "center",
           }}
         >
-          <img src={image} alt="img-proyecto" className="img-proyectov2" />
+          <img
+            src={image}
+            alt="img-proyecto"
+            className="img-proyectov2"
+            loading="lazy"
+          />
         </a>
       </article>
       <article className="container-segundaparte">
