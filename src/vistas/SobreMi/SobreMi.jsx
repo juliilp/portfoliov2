@@ -16,10 +16,9 @@ export default function SobreMi() {
             estancado y sin saber qué hacer, hasta que conocí el desarrollo web
             y supe que era para mí. Me adentré en este nuevo mundo mediante
             videos y cursos en YouTube con poca idea de lo que me iba a
-            encontrar. Un año después me recibí del bootcamp Soy Henry que
-            disfruté mucho, en el cual conocí gente con la misma pasión que yo,
-            y desarrollé buenos proyectos individuales y grupales con excelentes
-            equipos de compañeros 😊.
+            encontrar. Un año conocí gente con la misma pasión que yo, y
+            desarrollé buenos proyectos individuales y grupales con excelentes
+            compañeros de equipos 😊.
           </p>
         </div>
       </Section>
